@@ -1,0 +1,79 @@
+ 1191  exit
+ 1192  ls
+ 1193  cd js_app/
+ 1194  ls
+ 1195  git clone git@github.com:hakimel/reveal.js.git
+ 1196  sudo
+ 1197  sudo -s
+ 1198  yo web-app
+ 1199  sudo /home/ubuntu/.config/configstore/update-notifier-yo.ymlchmod 777
+ 1200  sudo chmod 777 /home/ubuntu/.config/configstore/update-notifier-yo.yml
+ 1201  yo web-app
+ 1202  yo --help
+ 1203  yo reveal:app
+ 1204  reveal:app
+ 1205  yo reveal:app -h
+ 1206  yeoman init
+ 1207* yo reveal:app
+ 1208  ls
+ 1209  ls -a
+ 1210  pwd
+ 1211  cd presentation/
+ 1212  ls
+ 1213  yo reveal
+ 1214  vim /home/ubuntu/node_modules/generator-reveal/app/index.js
+ 1215  yo reveal
+ 1216  chown -R ubuntu .
+ 1217  ls
+ 1218  ls -a
+ 1219  chown ubuntu .
+ 1220  cd ..
+ 1221  chown -R ubuntu presentation/
+ 1222  sudo  chown -R ubuntu presentation/
+ 1223  cd presentation/
+ 1224  yo reveal
+ 1225  grunt server
+ 1226  grunt
+ 1227  grunt --force
+ 1228  grunt build
+ 1229  grunt server
+ 1230  netstat
+ 1231  netstat | grep 9000
+ 1232  ps -ef | grep 900
+ 1233  ps -ef | node
+ 1234  ps -ef | grep node
+ 1235  ps -ef
+ 1236  ls
+ 1237  cd ..
+ 1238  mv presentation/ /var/www/
+ 1239  sudo mv presentation/ /var/www/
+ 1240  ls
+ 1241  sudo rm master.zip
+ 1242  cd /var/www/
+ 1243  cd presentation/
+ 1244  ls
+ 1245  cd slides/
+ 1246  ls
+ 1247  cd ..
+ 1248  yo reveal:slide "Slide Title"
+ 1249  yo reveal:slide "Introduction"
+ 1250  ls
+ 1251  less index.html
+ 1252  vim index.html
+ 1253  cd slides/
+ 1254  ls
+ 1255  vim list.json
+ 1256  cd ..
+ 1257  ls
+ 1258  bower
+ 1259  chmod 777 /home/ubuntu/.config/configstore/update-notifier-bower.yml
+ 1260  which bower
+ 1261  npm install -g bower
+ 1262  sudo npm install -g bower
+ 1263  less bower.json
+ 1264  bower install
+ 1265  chmod 777 /home/ubuntu/.config/configstore/
+ 1266  sudo chmod 777 /home/ubuntu/.config/configstore/
+ 1267  grunt server
+ 1268  bower install
+ 1269  ls
