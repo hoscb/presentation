@@ -1,15 +1,47 @@
 <section>
-    <h2>Bower</h2>
+	<section>
+    	<h2>Bower</h2>
 
-    <p>
-    	<ul>
-    		<li>Problem: Javascript/CSS plugin: latest version keep changing. What happened when the version of plugin change</li>
-    		<li>Usage: Install jquery: bower install jquery</li>
-    		<li>Create file "bower_components/jquery/jquery.js"</li>
-    	</ul>	
-    </p>
+	    <p>
+	    	<a href="http://bower.io/" >http://bower.io/</a>
+	    	<ul>
+	    		<li>Problem: Javascript/CSS plugin: latest version keep changing. What happened when the version of plugin change</li>
+	    		<li>Usage: Install jquery: bower install jquery</li>
+	    	</ul>	
+	    </p>
+	     <pre>
+	     	<code data-trim>
+{	
+	"name": "yeoman-gruntjs-and-bower",
+	"version": "0.0.0",
+	"dependencies": {
+		"reveal.js": "git@github.com:hakimel/reveal.js.git#master",
+		"handlebars": "~1.0.0",
+		"jquery": "~1.10"
+	}
+}</code>
+		 </pre>
+    </section>
+    <section>
+    	<h2>Current Plugins</h2>
+    	<table>
+    		<tr><th>Plugin Name</th><th>Version </th><th>File</th></tr>
+    		<tr><td>JQuery</td><td>1.10.1</td><td></td></tr>
+    		<tr><td>JQuery UI</td><td>1.9</td><td>jquery/jquery-ui/jquery-ui-1.9.2.js</td></tr>
+    		<tr><td>Highcharts</td><td>3.0</td><td></td></tr>
+    		<tr><td>Modernizr</td><td>2.6.1</td><td>modernizr-2.6.1.min.js</td></tr>
+    		<tr><td>Lightbox</td><td></td><td>jquery/jquery.lightbox_me.js</td></tr>
+    		<tr><td>Hierachy tree</td><td></td><td>jquery/tree.jquery.js</td></tr>
+    		<tr><td>Lazyload</td><td></td><td>jquery/jquery.lazyload.js</td></tr>
+    		<tr><td>Plupload</td><td></td><td></td></tr>
+    		<tr><td>KSS-Node</td><td></td><td></td></tr>
+    		<tr><td>Sass</td><td></td><td></td></tr>
+    		<tr><td>Compass</td><td></td><td></td></tr>
+    	</table>
+    </section>
 
     <aside class="notes">
     	Nobody likes going to GitHub or random developers’ sites to download a .zip of a JavaScript tool. 
+
     </aside>
 </section>

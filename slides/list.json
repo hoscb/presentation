@@ -1,8 +1,8 @@
 [
     "index.md",
-    "slide-title.html",
     "introduction.html",
     "bower.html",
     "grunt.html",
-    "yeoman.html"
+    "yeoman.html",
+    "thankyou.html"
 ]
