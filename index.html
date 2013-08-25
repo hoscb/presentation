@@ -82,7 +82,11 @@ function linkify( selector ) {
         pointerOpacity : 0.5,      // Set pointer opacity to 0.5
         pointerColor   : '#d80000' // Red pointer
       },
-
+	multiplex:{
+secret: "13774460308369972109",
+socketId: "e9b43a7a51987249",
+url: 'revealjs.jit.su:80' // Location of socket.io server
+},
       // Optional libraries used to extend on reveal.js
       dependencies: [
       { src: 'bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
@@ -95,7 +99,9 @@ function linkify( selector ) {
       //{ src: 'bower_components/reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
 
       { src: 'js/loadtemplates.js', condition: function() { return !!document.querySelector( '[data-html]' ); } },
-      { src: 'plugin/leap/leap.js', async: true }
+      { src: 'bower_components/reveal.js/plugin/leap/leap.js', async: true }
+	,  { src: '//cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.10/socket.io.min.js', async: true },
+        { src: 'bower_components/reveal.js/plugin/multiplex/master.js', async: true }
       ]
     });
 
